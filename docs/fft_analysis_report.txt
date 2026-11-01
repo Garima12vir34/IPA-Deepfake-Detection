@@ -1,0 +1,23 @@
+FFT ANALYSIS REPORT
+===================
+
+Dataset: 200 training images (100 real, 100 fake)
+Image preprocessing: Grayscale, resized to 128x128
+Method: 2D FFT followed by fftshift
+Energy: Squared magnitude of the FFT
+Frequency bands:
+Low: radius <= 16
+Mid: 16 < radius <= 32
+High: radius > 32
+
+MEAN AND STANDARD DEVIATION
+---------------------------
+Low frequency - Real: 0.984808 (SD: 0.007589), Fake: 0.987794 (SD: 0.005927)
+Mid frequency - Real: 0.010491 (SD: 0.005341), Fake: 0.008488 (SD: 0.004002)
+High frequency - Real: 0.004701 (SD: 0.002445), Fake: 0.003718 (SD: 0.002024)
+
+OBSERVATION
+-----------
+The frequency energy distributions overlap between real and fake images.
+These exploratory FFT features alone do not establish reliable classification.
+Further evaluation is required before drawing conclusions.
