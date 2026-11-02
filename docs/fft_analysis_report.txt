@@ -12,9 +12,9 @@ High: radius > 32
 
 MEAN AND STANDARD DEVIATION
 ---------------------------
-Low frequency - Real: 0.984808 (SD: 0.007589), Fake: 0.987794 (SD: 0.005927)
-Mid frequency - Real: 0.010491 (SD: 0.005341), Fake: 0.008488 (SD: 0.004002)
-High frequency - Real: 0.004701 (SD: 0.002445), Fake: 0.003718 (SD: 0.002024)
+Low frequency - Real: 0.988915 (SD: 0.005476), Fake: 0.989890 (SD: 0.005500)
+Mid frequency - Real: 0.008219 (SD: 0.004126), Fake: 0.007480 (SD: 0.004021)
+High frequency - Real: 0.002865 (SD: 0.001411), Fake: 0.002630 (SD: 0.001555)
 
 OBSERVATION
 -----------
